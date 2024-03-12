@@ -11,6 +11,7 @@ class Maze:
         self.thickness = 3
         self.maze_map = []
         self.maze_map_run = {}
+        
 
     def upload_map(self, loadMaze):
         with open(loadMaze, 'r') as f:
